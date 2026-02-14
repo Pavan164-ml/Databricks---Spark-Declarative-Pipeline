@@ -2,7 +2,8 @@ Databricks Lakehouse Medallion Pipeline (DLT + Auto Loader)
 An end-to-end Databricks Lakehouse pipeline implementing the Medallion architecture (Bronze–Silver–Gold) with Delta Live Tables (DLT), incremental ingestion via Auto Loader, data quality enforcement, and production-style orchestration and observability.
 
 Architecture
-![Uploading architecture.png…]()
+<img width="14204" height="4628" alt="architecture" src="https://github.com/user-attachments/assets/ef0899b2-e51e-4063-88f8-4bb72cc06c79" />
+
 
 
 Flow (high level): Source system (trips) → application + relational database → data extract service → object storage landing zone (S3) → Databricks DLT Bronze → Silver → Gold → consumption (dashboards / conversational analytics).
